@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/form2w2"
+    tools:context=".Wprdtowin2">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="horizontal">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+            <ImageView
+                android:id="@+id/imageView2"
+                android:layout_width="250dp"
+                android:layout_height="200dp"
+                android:layout_marginLeft="80dp"
+                android:layout_marginTop="50dp"
+                app:srcCompat="@drawable/logo2" />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="250dp"
+                android:orientation="vertical">
+
+                <TextView
+                    android:id="@+id/textView3"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="20dp"
+                    android:fontFamily="@font/baloo"
+                    android:text="LEVEL 2"
+                    android:textAlignment="center"
+                    android:textColor="#FAF8F8"
+                    android:textSize="34sp" />
+
+                <TextView
+                    android:id="@+id/textView4"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:fontFamily="@font/baloo"
+                    android:text="SPORT"
+                    android:textAlignment="center"
+                    android:textColor="#FFFDFD"
+                    android:textSize="24sp" />
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:orientation="vertical">
+
+                    <Button
+                        android:id="@+id/btnl2"
+                        android:layout_width="200dp"
+                        android:layout_height="50dp"
+                        android:layout_marginLeft="100dp"
+                        android:layout_marginTop="50dp"
+                        android:background="@drawable/button"
+                        android:text="PLAY"
+                        android:textIsSelectable="false"
+                        android:textSize="20sp"
+                        android:textStyle="bold" />
+                </LinearLayout>
+
+            </LinearLayout>
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+</LinearLayout>
